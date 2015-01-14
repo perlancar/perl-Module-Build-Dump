@@ -1,5 +1,10 @@
 Revision history for Module-Build-Dump
 
+0.02    2015-01-14 (PERLANCAR)
+
+	- Add timeout to get out of script that prompts interactively.
+
+
 0.01    2015-01-14 (PERLANCAR)
 
         - First release.
