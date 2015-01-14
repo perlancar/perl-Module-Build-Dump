@@ -59,7 +59,7 @@ sub dump_build_pl_script {
     my $tag = UUID::Random::generate();
     my @cmd = (
         $^X, (map {"-I$_"} @$libs),
-        "-MModule::Build::Patch::DumpAndExit=-tag,$tag",
+        "-MModule::Build::Base::Patch::DumpAndExit=-tag,$tag",
         $filename,
         "--version",
     );

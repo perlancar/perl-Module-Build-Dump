@@ -1,4 +1,4 @@
-package Module::Build::Patch::DumpAndExit;
+package Module::Build::Base::Patch::DumpAndExit;
 
 # DATE
 # VERSION
