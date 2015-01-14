@@ -59,6 +59,7 @@ sub dump_build_pl_script {
     my $tag = UUID::Random::generate();
     my @cmd = (
         $^X, (map {"-I$_"} @$libs),
+        "-MTimeout::Self=30", # to defeat scripts that prompts for stuffs
         "-MModule::Build::Base::Patch::DumpAndExit=-tag,$tag",
         $filename,
         "--version",
