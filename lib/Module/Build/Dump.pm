@@ -88,3 +88,7 @@ sub dump_build_pl_script {
 
 1;
 # ABSTRACT:
+
+=head1 SEE ALSO
+
+L<Module::Build::Dump>

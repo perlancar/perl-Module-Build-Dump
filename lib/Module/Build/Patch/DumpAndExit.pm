@@ -60,4 +60,4 @@ without actually producing a Build script.
 
 =head1 SEE ALSO
 
-L<ExtUtils::MakeMaker::Dump>
+L<ExtUtils::MakeMaker::Patch::DumpAndExit>
